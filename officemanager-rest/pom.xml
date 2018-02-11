@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.shenaz.junk.officemanager.rest</groupId>
+	<groupId>com.shenaz</groupId>
 	<artifactId>officemanager-rest</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
@@ -47,7 +47,7 @@
 		<!-- uncomment this to get JSON support <dependency> <groupId>org.glassfish.jersey.media</groupId> 
 			<artifactId>jersey-media-moxy</artifactId> </dependency> -->
 		<dependency>
-			<groupId>com.shenaz.junk.officemanager</groupId>
+			<groupId>com.shenaz</groupId>
 			<artifactId>officemanager-model</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
