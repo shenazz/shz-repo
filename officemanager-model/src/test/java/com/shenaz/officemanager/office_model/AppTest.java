@@ -1,4 +1,4 @@
-package com.shenaz.junk.officemanager.office_model;
+package com.shenaz.officemanager.office_model;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
