@@ -10,4 +10,7 @@ public interface OfficeDAO {
 
 	Set<Office> getOffices();
 
+
+	//
+
 }
