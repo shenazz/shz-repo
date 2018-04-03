@@ -1,7 +1,7 @@
 package com.shenaz.jsonbackend;
 
 /**
- * @author ShenazAssu
+ * Hello world!
  *
  */
 public class App 
