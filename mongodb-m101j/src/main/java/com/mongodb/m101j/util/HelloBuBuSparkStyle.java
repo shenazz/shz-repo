@@ -9,7 +9,7 @@ import static spark.Spark.get;
  * @author ShenazAssu
  *
  */
-public class Tester {
+public class HelloBuBuSparkStyle {
 
 	/**
 	 * @param args
