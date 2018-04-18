@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.shenaz.util.patterns.component;
+package com.shenaz.util.patterns.composite;
 
 import java.util.Iterator;
 
