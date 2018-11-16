@@ -3,7 +3,7 @@
  */
 package com.mongodb.m101j.util;
 
-import static spark.Spark.get;
+import spark.Spark;
 
 /**
  * @author ShenazAssu
@@ -15,7 +15,7 @@ public class HelloBuBuSparkStyle {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		get("/hello", (req, res) -> "Hello Bu Bu!");
+		Spark.get("/hello", (req, res) -> "Hello Bu Bu!");
 	}
 
 }
