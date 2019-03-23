@@ -42,6 +42,17 @@ public class TestController {
 	/**
 	 * @return
 	 */
+	@RequestMapping(path = "/play", method = RequestMethod.GET)
+	public ResponseEntity<String> play() {
+		
+		
+		
+		return new ResponseEntity<>("Alles gut!", HttpStatus.OK);
+	}
+
+	/**
+	 * @return
+	 */
 	@RequestMapping(path = "/createbike", method = RequestMethod.POST)
 	public ResponseEntity<String> createBike(@RequestBody MotorBike motorBike) {
 		return new ResponseEntity<>(motorBikeRepo.save(motorBike).getId(), HttpStatus.OK);
