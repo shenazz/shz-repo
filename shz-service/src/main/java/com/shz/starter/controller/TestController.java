@@ -44,9 +44,7 @@ public class TestController {
 	 */
 	@RequestMapping(path = "/play", method = RequestMethod.GET)
 	public ResponseEntity<String> play() {
-		
-		
-		
+
 		return new ResponseEntity<>("Alles gut!", HttpStatus.OK);
 	}
 
@@ -73,4 +71,5 @@ public class TestController {
 	public ResponseEntity<List<MotorBike>> getAllBikes() {
 		return new ResponseEntity<>(motorBikeRepo.findAll(), HttpStatus.OK);
 	}
+
 }
